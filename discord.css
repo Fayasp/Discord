@@ -1,0 +1,500 @@
+@font-face {
+    font-family: hh;
+    src: url(./Fontspring-DEMO-integralcf-boldoblique.otf);
+}
+
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.head-body
+{
+    width: 100%;
+    height: 900px;
+    background-color: #404eed;
+}
+.discord-logo
+{
+    font-size: 40px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.d-word
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.novbar
+{
+    display: flex;
+   
+}
+
+.login
+{
+    margin-left: 950px;
+    margin-top: 30px;
+}
+.log-but
+{
+    color: #23272a;
+    border: none;
+    background-color: #ffff;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 15px 25px;
+    cursor: pointer;
+   
+   
+}
+.log-but:hover
+{
+    color: #404eed;
+}
+.heading
+{
+    margin-left: 45px;
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffff;
+}
+.menu
+{
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.para
+{
+    
+    font-size: clamp(30px,2vw,20px);
+    line-height: 1.625;
+    color: #ffff;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: 45px;
+        margin-top: -17px;
+}
+.dow-but
+{
+   
+    border-radius: 28px;
+    font-size: 30px;
+    padding: 20px 55px;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    align-items: center;
+    border: none;
+    margin-left: 40px;
+
+    transform: translateY(-400px);
+   
+}
+.dow-but:hover
+{
+    color: #404eed;
+}
+.op
+{
+    border-radius: 28px;
+    font-size: 30px;
+    padding: 23px 45px;
+    color: #ffff;
+    background-color: #23272a;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 40px;
+    border: none;
+}
+.open
+{
+    transform: translateY(-390px);
+}
+.op:hover{
+    box-shadow: 0 0 5px 0 black;
+}
+.img{
+   margin-top: -371px;
+    margin-left: -832px
+}
+.img img
+{
+width: 2660px;
+height: 726px;
+}
+.img-stand
+{
+        margin-top: -345px;
+    margin-left: 660px;
+    transform: translateY(-18px);
+}
+.img-stand img
+{
+   
+    width: 615px;
+    height: 360px;
+}
+
+.second-body
+{
+    width: 100%;
+    height: 680px;
+    background-color: #ffffff;
+}
+.two-container{
+    /* background-color: #23272a; */
+
+    
+}
+.two-img
+{
+    margin-top: 24px;
+    padding-left: 167px;
+    padding-top: 100px;
+}
+.two-words
+{
+padding-left: 125px;
+margin-top: -430px;
+}
+.two-heading
+{
+    font-size: 36px;
+    line-height: 120%;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 800;
+
+  margin-left: 830px;
+
+}
+.two-para
+{
+    font-size: 20px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    padding-left: 830px;
+    color: #23272a;
+}
+
+.third-body{
+
+width: 100%;
+height: 680px;
+background-color: #f6f6f6;
+}
+.three-word
+{
+margin-left: 160px;
+padding-top: 150px;
+}
+.three-heading
+{
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 800;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.three-para
+{
+    margin-top: 24px;
+
+    font-size: 20px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    line-height: 1.625;
+    color: #23272a;
+}
+.three-img
+{
+    margin-top: -400px;
+    
+    margin-left: 600px;
+}
+
+.four-body
+{
+    width: 100%;
+    height: 680px;
+    background-color: #ffff;
+}
+
+.four-img
+{
+   margin-left: 160px;
+   margin-top: 120px;
+}
+.four-word
+{
+margin-top: -400px;    
+}
+.four-heading 
+{
+    font-size: 36px;
+    margin-top: 24px;
+    color: #23272a;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    
+    margin-left: 960px;
+}
+.four-para
+{
+    font-size: 20px;
+  color: #23272a;
+    line-height: 1.625;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+    margin-top: 24px;
+    padding-left: 960px;
+}
+.five-body
+{
+
+width: 100%;
+height: 1058.55px;
+background-color: #f6f6f6;
+}
+.five-word
+{
+    padding-top: 80px;
+}
+.five-heading
+{
+    font-family: "ABC Ginto Nord","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    font-size: 36px;
+
+    font-weight: 800;
+    line-height: 95%;
+    padding-left: 250px;
+  
+
+
+}
+.five-para
+{
+    margin-top: 24px;
+    font-size: 20px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    text-align: center;
+    color: #23272a;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
+}
+.five-img
+{
+    padding-left: 180px;
+    padding-top: 50px;
+}
+.six-body
+{
+    width: 100%;
+    height: 284.4px;
+   
+}
+.six-img
+{
+margin-left: 490px;
+margin-top: 100px;
+}
+.six-word{
+    
+    z-index: 1;
+    
+    font-size: 32px;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 120%;
+    margin-top: -70px;
+    padding-left: 535px;
+    font-weight: 800;
+}
+.six-button
+{
+    padding-left: 610px;
+    margin-top: -40px;
+}
+.but-down
+{
+    margin-top: 40px;
+    width: auto;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: #5865f2;
+    color: #ffff;
+    border: none;
+
+}
+.but-down:hover{
+  box-shadow: 0 0 5px 0 black;
+}
+.but-down img
+{
+    height: 20px;
+    width: 20px;
+
+}
+.seven-body
+{
+    width: 100%;
+    height: 611px;
+    background-color: #23272a;
+}
+.country{
+    color: #ffff;
+    padding-top: 115px;
+    padding-left: 170px;
+}
+.country img
+{
+    width: 23px;
+    height: 20px;
+}
+.social {
+    margin-top: 50px;
+    padding-left: 185px;
+}
+.product
+{
+    margin-left: 525px;
+    margin-top: -140px;
+
+}
+.pro {
+    padding-left: 40px;
+    color:#5865f2 ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list1
+{
+    color: #ffff;
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.list11:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.company
+{
+    padding-left: 725px;
+    margin-top: -212px;
+
+}
+.com
+{
+
+    padding-left: 40px;
+    color:#5865f2 ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list2
+{
+    color: #ffff;
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list22:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.resourse
+{
+    padding-left: 920px;
+    margin-top: -244px;
+}
+.res
+{
+    padding-left: 40px;
+    color:#5865f2 ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list3
+{
+    color: #ffff;
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list33:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.policies
+{
+    padding-left: 1110px;
+    margin-top: -385px;
+}
+.pol{
+    padding-left: 40px;
+    color:#5865f2 ;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+.list4
+{
+    color: #ffff;
+    list-style: none;
+    font-size: 16px;
+    line-height: 35px;
+    font-family:  "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list44:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hr{
+    height: 1px ;
+    width: 80%;
+    background-color: #444ea7;
+    margin-top: 115px;
+    margin-left: 140px;
+}
+
+.last-emb
+{
+    margin-top: 60px;
+    margin-left: 137px;
+    font-size: 30px;
+}
+.sign-but
+{
+    margin-left: 1255px;
+    margin-top: -50px;
+    float: left;
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 15px 21px;
+    background-color: #5865f2;
+    font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+    border: none;
+    color: #ffff;
+}
+.sign-but:hover
+{background-color: #6671e8;
+}
